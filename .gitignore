@@ -1,0 +1,44 @@
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+*.mod
+*.mod.c
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+*.dwo
+*.cmd
+*.order
+*.symvers
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+gui/mpCUBIC/mpCUBIC
+gui/TCPTuner/TCPTuner
+
+# Debug files
+*.dSYM/
+
+# Misc
+cwnd_data.csv
+moc_predefs.h
