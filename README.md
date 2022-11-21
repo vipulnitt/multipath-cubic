@@ -1,15 +1,9 @@
 # TCPTuner
 TCPTuner is TCP congestion control kernel module and GUI packaged together. By loading this kernel module and running the GUI, users can adjust several parameters of the CUBIC congestion control algorithm.
 
-Two variations of CUBIC congestion control algorithm are implemented here:
-* Conventional CUBIC ([reference paper](https://arxiv.org/ftp/arxiv/papers/1605/1605.01987.pdf))
-* Multipath CUBIC ([reference paper](https://www.researchgate.net/publication/341995073_mpCUBIC_A_CUBIC-like_Congestion_Control_Algorithm_for_Multipath_TCP))
-
-[Project report](report.pdf)
-
 ## How to Build and Load the Kernel Modules
 
-**This version of the project was developed and tested on an Ubuntu 20.04 machine running version 5.11 of the Linux kernel**
+**This version of the project was developed and tested on an Ubuntu 20.04 machine**
 
 To build the tcptuner kernel module:
 ``` bash
